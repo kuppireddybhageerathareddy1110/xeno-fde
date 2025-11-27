@@ -1,0 +1,308 @@
+[00:14:04.812] Browser ERROR   ./pages/_app.js:1:1
+Module not found: Can't resolve '@/styles/globals.css'
+> 1 | import "@/styles/globals.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 |
+  3 | export default function App({ Component, pageProps }) {
+  4 |   return <Component {...pageProps} />;
+
+https://nextjs.org/docs/messages/module-not-found
+[00:14:04.812] Browser ERROR   ./node_modules/chart.js/dist/chart.js:8:1
+Module not found: Can't resolve '@kurkle/color'
+   6 |  */
+   7 | import { r as requestAnimFrame, a as resolve, e as effects, c as color, i as isObject, d as defaults, b as isArray, v as valueOrDefault, u as unlistenArrayEvents, l as listenArrayEvents, f as resolveObjectKey, g as isNumberFinite, h as defined, s as sign, j as createContext, k as isNullOrUndef, _ as _arrayUnique, t as toRadians, m as toPercentage, n as toDimension, T as TAU, o as formatNumber, p as _angleBetween, H as HALF_PI, P as PI, q as _getStartAndCountOfVisiblePoints, w as _scaleRangesChanged, x as isNumber, y as _parseObjectDataRadialScale, z as getRelativePosition, A as _rlookupByKey, B as _lookupByKey, C as _isPointInArea, D as getAngleFromPoint, E as toPadding, F as each, G as getMaximumSize, I as _getParentNode, J as readUsedSize, K as supportsEventListenerOptions, L as throttled, M as _isDomSupported, N as _factorize, O as finiteOrDefault, Q as callback, R as _addGrace, S as _limitValue, U as toDegrees, V as _measureText, W as _int16Range, X as _alignPixel, Y as clipArea, Z as renderText, $ as unclipArea, a0 as toFont, a1 as _toLeftRightCenter, a2 as _alignStartEnd, a3 as overrides, a4 as merge, a5 as _capitalize, a6 as descriptors, a7 as isFunction, a8 as _attachContext, a9 as _createResolver, aa as _descriptors, ab as mergeIf, ac as uid, ad as debounce, ae as retinaScale, af as clearCanvas, ag as setsEqual, ah as getDatasetClipArea, ai as _elementsEqual, aj as _isClickEvent, ak as _isBetween, al as _normalizeAngle, am as _readValueToProps, an as _updateBezierControlPoints, ao as _computeSegments, ap as _boundSegments, aq as _steppedInterpolation, ar as _bezierInterpolation, as as _pointInLine, at as _steppedLineTo, au as _bezierCurveTo, av as drawPoint, aw as addRoundedRectPath, ax as toTRBL, ay as toTRBLCorners, az as _boundSegment, aA as getRtlAdapter, aB as overrideTextDirection, aC as _textX, aD as restoreTextDirection, aE as drawPointLegend, aF as distanceBetweenPoints, aG as noop, aH as _setMinAndMaxByKey, aI as niceNum, aJ as almostWhole, aK as almostEquals, aL as _decimalPlaces, aM as Ticks, aN as log10, aO as _longestText, aP as _filterBetween, aQ as _lookup } from './chunks/helpers.dataset.js';
+>  8 | import '@kurkle/color';
+     | ^^^^^^^^^^^^^^^^^^^^^^^
+   9 |
+  10 | class Animator {
+  11 |     constructor(){
+
+Import trace:
+  Browser:
+    ./node_modules/chart.js/dist/chart.js
+    ./node_modules/chart.js/auto/auto.js
+    ./pages/dashboard.js
+
+https://nextjs.org/docs/messages/module-not-found
+[00:14:04.812] Browser ERROR   ./node_modules/chart.js/dist/chunks/helpers.dataset.js:7:1
+Module not found: Can't resolve '@kurkle/color'
+   5 |  * Released under the MIT License
+   6 |  */
+>  7 | import { Color } from '@kurkle/color';
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 |
+   9 | /**
+  10 |  * @namespace Chart.helpers
+
+Import trace:
+  Browser:
+    ./node_modules/chart.js/dist/chunks/helpers.dataset.js
+    ./node_modules/chart.js/dist/chart.js
+    ./node_modules/chart.js/auto/auto.js
+    ./pages/dashboard.js
+
+https://nextjs.org/docs/messages/module-not-found
+[00:14:05.810] Browser ERROR   ./pages/_app.js:1:1
+Module not found: Can't resolve '@/styles/globals.css'
+> 1 | import "@/styles/globals.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 |
+  3 | export default function App({ Component, pageProps }) {
+  4 |   return <Component {...pageProps} />;
+
+https://nextjs.org/docs/messages/module-not-found
+[00:14:05.810] Browser ERROR   ./node_modules/chart.js/dist/chart.js:8:1
+Module not found: Can't resolve '@kurkle/color'
+   6 |  */
+   7 | import { r as requestAnimFrame, a as resolve, e as effects, c as color, i as isObject, d as defaults, b as isArray, v as valueOrDefault, u as unlistenArrayEvents, l as listenArrayEvents, f as resolveObjectKey, g as isNumberFinite, h as defined, s as sign, j as createContext, k as isNullOrUndef, _ as _arrayUnique, t as toRadians, m as toPercentage, n as toDimension, T as TAU, o as formatNumber, p as _angleBetween, H as HALF_PI, P as PI, q as _getStartAndCountOfVisiblePoints, w as _scaleRangesChanged, x as isNumber, y as _parseObjectDataRadialScale, z as getRelativePosition, A as _rlookupByKey, B as _lookupByKey, C as _isPointInArea, D as getAngleFromPoint, E as toPadding, F as each, G as getMaximumSize, I as _getParentNode, J as readUsedSize, K as supportsEventListenerOptions, L as throttled, M as _isDomSupported, N as _factorize, O as finiteOrDefault, Q as callback, R as _addGrace, S as _limitValue, U as toDegrees, V as _measureText, W as _int16Range, X as _alignPixel, Y as clipArea, Z as renderText, $ as unclipArea, a0 as toFont, a1 as _toLeftRightCenter, a2 as _alignStartEnd, a3 as overrides, a4 as merge, a5 as _capitalize, a6 as descriptors, a7 as isFunction, a8 as _attachContext, a9 as _createResolver, aa as _descriptors, ab as mergeIf, ac as uid, ad as debounce, ae as retinaScale, af as clearCanvas, ag as setsEqual, ah as getDatasetClipArea, ai as _elementsEqual, aj as _isClickEvent, ak as _isBetween, al as _normalizeAngle, am as _readValueToProps, an as _updateBezierControlPoints, ao as _computeSegments, ap as _boundSegments, aq as _steppedInterpolation, ar as _bezierInterpolation, as as _pointInLine, at as _steppedLineTo, au as _bezierCurveTo, av as drawPoint, aw as addRoundedRectPath, ax as toTRBL, ay as toTRBLCorners, az as _boundSegment, aA as getRtlAdapter, aB as overrideTextDirection, aC as _textX, aD as restoreTextDirection, aE as drawPointLegend, aF as distanceBetweenPoints, aG as noop, aH as _setMinAndMaxByKey, aI as niceNum, aJ as almostWhole, aK as almostEquals, aL as _decimalPlaces, aM as Ticks, aN as log10, aO as _longestText, aP as _filterBetween, aQ as _lookup } from './chunks/helpers.dataset.js';
+>  8 | import '@kurkle/color';
+     | ^^^^^^^^^^^^^^^^^^^^^^^
+   9 |
+  10 | class Animator {
+  11 |     constructor(){
+
+Import trace:
+  Browser:
+    ./node_modules/chart.js/dist/chart.js
+    ./node_modules/chart.js/auto/auto.js
+    ./pages/dashboard.js
+
+https://nextjs.org/docs/messages/module-not-found
+[00:14:05.810] Browser ERROR   ./node_modules/chart.js/dist/chunks/helpers.dataset.js:7:1
+Module not found: Can't resolve '@kurkle/color'
+   5 |  * Released under the MIT License
+   6 |  */
+>  7 | import { Color } from '@kurkle/color';
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 |
+   9 | /**
+  10 |  * @namespace Chart.helpers
+
+Import trace:
+  Browser:
+    ./node_modules/chart.js/dist/chunks/helpers.dataset.js
+    ./node_modules/chart.js/dist/chart.js
+    ./node_modules/chart.js/auto/auto.js
+    ./pages/dashboard.js
+
+https://nextjs.org/docs/messages/module-not-found
+[00:17:15.816] Browser ERROR   ./pages/_app.js:1:1
+Module not found: Can't resolve '@/styles/globals.css'
+> 1 | import "@/styles/globals.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 |
+  3 | export default function App({ Component, pageProps }) {
+  4 |   return <Component {...pageProps} />;
+
+https://nextjs.org/docs/messages/module-not-found
+[00:17:15.816] Browser ERROR   ./node_modules/chart.js/dist/chart.js:8:1
+Module not found: Can't resolve '@kurkle/color'
+   6 |  */
+   7 | import { r as requestAnimFrame, a as resolve, e as effects, c as color, i as isObject, d as defaults, b as isArray, v as valueOrDefault, u as unlistenArrayEvents, l as listenArrayEvents, f as resolveObjectKey, g as isNumberFinite, h as defined, s as sign, j as createContext, k as isNullOrUndef, _ as _arrayUnique, t as toRadians, m as toPercentage, n as toDimension, T as TAU, o as formatNumber, p as _angleBetween, H as HALF_PI, P as PI, q as _getStartAndCountOfVisiblePoints, w as _scaleRangesChanged, x as isNumber, y as _parseObjectDataRadialScale, z as getRelativePosition, A as _rlookupByKey, B as _lookupByKey, C as _isPointInArea, D as getAngleFromPoint, E as toPadding, F as each, G as getMaximumSize, I as _getParentNode, J as readUsedSize, K as supportsEventListenerOptions, L as throttled, M as _isDomSupported, N as _factorize, O as finiteOrDefault, Q as callback, R as _addGrace, S as _limitValue, U as toDegrees, V as _measureText, W as _int16Range, X as _alignPixel, Y as clipArea, Z as renderText, $ as unclipArea, a0 as toFont, a1 as _toLeftRightCenter, a2 as _alignStartEnd, a3 as overrides, a4 as merge, a5 as _capitalize, a6 as descriptors, a7 as isFunction, a8 as _attachContext, a9 as _createResolver, aa as _descriptors, ab as mergeIf, ac as uid, ad as debounce, ae as retinaScale, af as clearCanvas, ag as setsEqual, ah as getDatasetClipArea, ai as _elementsEqual, aj as _isClickEvent, ak as _isBetween, al as _normalizeAngle, am as _readValueToProps, an as _updateBezierControlPoints, ao as _computeSegments, ap as _boundSegments, aq as _steppedInterpolation, ar as _bezierInterpolation, as as _pointInLine, at as _steppedLineTo, au as _bezierCurveTo, av as drawPoint, aw as addRoundedRectPath, ax as toTRBL, ay as toTRBLCorners, az as _boundSegment, aA as getRtlAdapter, aB as overrideTextDirection, aC as _textX, aD as restoreTextDirection, aE as drawPointLegend, aF as distanceBetweenPoints, aG as noop, aH as _setMinAndMaxByKey, aI as niceNum, aJ as almostWhole, aK as almostEquals, aL as _decimalPlaces, aM as Ticks, aN as log10, aO as _longestText, aP as _filterBetween, aQ as _lookup } from './chunks/helpers.dataset.js';
+>  8 | import '@kurkle/color';
+     | ^^^^^^^^^^^^^^^^^^^^^^^
+   9 |
+  10 | class Animator {
+  11 |     constructor(){
+
+Import trace:
+  Browser:
+    ./node_modules/chart.js/dist/chart.js
+    ./node_modules/chart.js/auto/auto.js
+    ./pages/dashboard.js
+
+https://nextjs.org/docs/messages/module-not-found
+[00:17:15.816] Browser ERROR   ./node_modules/chart.js/dist/chunks/helpers.dataset.js:7:1
+Module not found: Can't resolve '@kurkle/color'
+   5 |  * Released under the MIT License
+   6 |  */
+>  7 | import { Color } from '@kurkle/color';
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 |
+   9 | /**
+  10 |  * @namespace Chart.helpers
+
+Import trace:
+  Browser:
+    ./node_modules/chart.js/dist/chunks/helpers.dataset.js
+    ./node_modules/chart.js/dist/chart.js
+    ./node_modules/chart.js/auto/auto.js
+    ./pages/dashboard.js
+
+https://nextjs.org/docs/messages/module-not-found
+[00:17:15.816] Browser ERROR   ./pages/_app.js:1:1
+Module not found: Can't resolve '@/styles/globals.css'
+> 1 | import "@/styles/globals.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 |
+  3 | export default function App({ Component, pageProps }) {
+  4 |   return <Component {...pageProps} />;
+
+https://nextjs.org/docs/messages/module-not-found
+[00:17:15.816] Browser ERROR   ./node_modules/chart.js/dist/chart.js:8:1
+Module not found: Can't resolve '@kurkle/color'
+   6 |  */
+   7 | import { r as requestAnimFrame, a as resolve, e as effects, c as color, i as isObject, d as defaults, b as isArray, v as valueOrDefault, u as unlistenArrayEvents, l as listenArrayEvents, f as resolveObjectKey, g as isNumberFinite, h as defined, s as sign, j as createContext, k as isNullOrUndef, _ as _arrayUnique, t as toRadians, m as toPercentage, n as toDimension, T as TAU, o as formatNumber, p as _angleBetween, H as HALF_PI, P as PI, q as _getStartAndCountOfVisiblePoints, w as _scaleRangesChanged, x as isNumber, y as _parseObjectDataRadialScale, z as getRelativePosition, A as _rlookupByKey, B as _lookupByKey, C as _isPointInArea, D as getAngleFromPoint, E as toPadding, F as each, G as getMaximumSize, I as _getParentNode, J as readUsedSize, K as supportsEventListenerOptions, L as throttled, M as _isDomSupported, N as _factorize, O as finiteOrDefault, Q as callback, R as _addGrace, S as _limitValue, U as toDegrees, V as _measureText, W as _int16Range, X as _alignPixel, Y as clipArea, Z as renderText, $ as unclipArea, a0 as toFont, a1 as _toLeftRightCenter, a2 as _alignStartEnd, a3 as overrides, a4 as merge, a5 as _capitalize, a6 as descriptors, a7 as isFunction, a8 as _attachContext, a9 as _createResolver, aa as _descriptors, ab as mergeIf, ac as uid, ad as debounce, ae as retinaScale, af as clearCanvas, ag as setsEqual, ah as getDatasetClipArea, ai as _elementsEqual, aj as _isClickEvent, ak as _isBetween, al as _normalizeAngle, am as _readValueToProps, an as _updateBezierControlPoints, ao as _computeSegments, ap as _boundSegments, aq as _steppedInterpolation, ar as _bezierInterpolation, as as _pointInLine, at as _steppedLineTo, au as _bezierCurveTo, av as drawPoint, aw as addRoundedRectPath, ax as toTRBL, ay as toTRBLCorners, az as _boundSegment, aA as getRtlAdapter, aB as overrideTextDirection, aC as _textX, aD as restoreTextDirection, aE as drawPointLegend, aF as distanceBetweenPoints, aG as noop, aH as _setMinAndMaxByKey, aI as niceNum, aJ as almostWhole, aK as almostEquals, aL as _decimalPlaces, aM as Ticks, aN as log10, aO as _longestText, aP as _filterBetween, aQ as _lookup } from './chunks/helpers.dataset.js';
+>  8 | import '@kurkle/color';
+     | ^^^^^^^^^^^^^^^^^^^^^^^
+   9 |
+  10 | class Animator {
+  11 |     constructor(){
+
+Import trace:
+  Browser:
+    ./node_modules/chart.js/dist/chart.js
+    ./node_modules/chart.js/auto/auto.js
+    ./pages/dashboard.js
+
+https://nextjs.org/docs/messages/module-not-found
+[00:17:15.816] Browser ERROR   ./node_modules/chart.js/dist/chunks/helpers.dataset.js:7:1
+Module not found: Can't resolve '@kurkle/color'
+   5 |  * Released under the MIT License
+   6 |  */
+>  7 | import { Color } from '@kurkle/color';
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 |
+   9 | /**
+  10 |  * @namespace Chart.helpers
+
+Import trace:
+  Browser:
+    ./node_modules/chart.js/dist/chunks/helpers.dataset.js
+    ./node_modules/chart.js/dist/chart.js
+    ./node_modules/chart.js/auto/auto.js
+    ./pages/dashboard.js
+
+https://nextjs.org/docs/messages/module-not-found
+[00:17:15.816] Browser ERROR   ./pages/_app.js:1:1
+Module not found: Can't resolve '@/styles/globals.css'
+> 1 | import "@/styles/globals.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 |
+  3 | export default function App({ Component, pageProps }) {
+  4 |   return <Component {...pageProps} />;
+
+https://nextjs.org/docs/messages/module-not-found
+[00:17:15.816] Browser ERROR   ./node_modules/chart.js/dist/chart.js:8:1
+Module not found: Can't resolve '@kurkle/color'
+   6 |  */
+   7 | import { r as requestAnimFrame, a as resolve, e as effects, c as color, i as isObject, d as defaults, b as isArray, v as valueOrDefault, u as unlistenArrayEvents, l as listenArrayEvents, f as resolveObjectKey, g as isNumberFinite, h as defined, s as sign, j as createContext, k as isNullOrUndef, _ as _arrayUnique, t as toRadians, m as toPercentage, n as toDimension, T as TAU, o as formatNumber, p as _angleBetween, H as HALF_PI, P as PI, q as _getStartAndCountOfVisiblePoints, w as _scaleRangesChanged, x as isNumber, y as _parseObjectDataRadialScale, z as getRelativePosition, A as _rlookupByKey, B as _lookupByKey, C as _isPointInArea, D as getAngleFromPoint, E as toPadding, F as each, G as getMaximumSize, I as _getParentNode, J as readUsedSize, K as supportsEventListenerOptions, L as throttled, M as _isDomSupported, N as _factorize, O as finiteOrDefault, Q as callback, R as _addGrace, S as _limitValue, U as toDegrees, V as _measureText, W as _int16Range, X as _alignPixel, Y as clipArea, Z as renderText, $ as unclipArea, a0 as toFont, a1 as _toLeftRightCenter, a2 as _alignStartEnd, a3 as overrides, a4 as merge, a5 as _capitalize, a6 as descriptors, a7 as isFunction, a8 as _attachContext, a9 as _createResolver, aa as _descriptors, ab as mergeIf, ac as uid, ad as debounce, ae as retinaScale, af as clearCanvas, ag as setsEqual, ah as getDatasetClipArea, ai as _elementsEqual, aj as _isClickEvent, ak as _isBetween, al as _normalizeAngle, am as _readValueToProps, an as _updateBezierControlPoints, ao as _computeSegments, ap as _boundSegments, aq as _steppedInterpolation, ar as _bezierInterpolation, as as _pointInLine, at as _steppedLineTo, au as _bezierCurveTo, av as drawPoint, aw as addRoundedRectPath, ax as toTRBL, ay as toTRBLCorners, az as _boundSegment, aA as getRtlAdapter, aB as overrideTextDirection, aC as _textX, aD as restoreTextDirection, aE as drawPointLegend, aF as distanceBetweenPoints, aG as noop, aH as _setMinAndMaxByKey, aI as niceNum, aJ as almostWhole, aK as almostEquals, aL as _decimalPlaces, aM as Ticks, aN as log10, aO as _longestText, aP as _filterBetween, aQ as _lookup } from './chunks/helpers.dataset.js';
+>  8 | import '@kurkle/color';
+     | ^^^^^^^^^^^^^^^^^^^^^^^
+   9 |
+  10 | class Animator {
+  11 |     constructor(){
+
+Import trace:
+  Browser:
+    ./node_modules/chart.js/dist/chart.js
+    ./node_modules/chart.js/auto/auto.js
+    ./pages/dashboard.js
+
+https://nextjs.org/docs/messages/module-not-found
+[00:17:15.816] Browser ERROR   ./node_modules/chart.js/dist/chunks/helpers.dataset.js:7:1
+Module not found: Can't resolve '@kurkle/color'
+   5 |  * Released under the MIT License
+   6 |  */
+>  7 | import { Color } from '@kurkle/color';
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 |
+   9 | /**
+  10 |  * @namespace Chart.helpers
+
+Import trace:
+  Browser:
+    ./node_modules/chart.js/dist/chunks/helpers.dataset.js
+    ./node_modules/chart.js/dist/chart.js
+    ./node_modules/chart.js/auto/auto.js
+    ./pages/dashboard.js
+
+https://nextjs.org/docs/messages/module-not-found
+[00:17:15.816] Browser ERROR   ./pages/_app.js:1:1
+Module not found: Can't resolve '@/styles/globals.css'
+> 1 | import "@/styles/globals.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 |
+  3 | export default function App({ Component, pageProps }) {
+  4 |   return <Component {...pageProps} />;
+
+https://nextjs.org/docs/messages/module-not-found
+[00:17:15.816] Browser ERROR   ./node_modules/chart.js/dist/chart.js:8:1
+Module not found: Can't resolve '@kurkle/color'
+   6 |  */
+   7 | import { r as requestAnimFrame, a as resolve, e as effects, c as color, i as isObject, d as defaults, b as isArray, v as valueOrDefault, u as unlistenArrayEvents, l as listenArrayEvents, f as resolveObjectKey, g as isNumberFinite, h as defined, s as sign, j as createContext, k as isNullOrUndef, _ as _arrayUnique, t as toRadians, m as toPercentage, n as toDimension, T as TAU, o as formatNumber, p as _angleBetween, H as HALF_PI, P as PI, q as _getStartAndCountOfVisiblePoints, w as _scaleRangesChanged, x as isNumber, y as _parseObjectDataRadialScale, z as getRelativePosition, A as _rlookupByKey, B as _lookupByKey, C as _isPointInArea, D as getAngleFromPoint, E as toPadding, F as each, G as getMaximumSize, I as _getParentNode, J as readUsedSize, K as supportsEventListenerOptions, L as throttled, M as _isDomSupported, N as _factorize, O as finiteOrDefault, Q as callback, R as _addGrace, S as _limitValue, U as toDegrees, V as _measureText, W as _int16Range, X as _alignPixel, Y as clipArea, Z as renderText, $ as unclipArea, a0 as toFont, a1 as _toLeftRightCenter, a2 as _alignStartEnd, a3 as overrides, a4 as merge, a5 as _capitalize, a6 as descriptors, a7 as isFunction, a8 as _attachContext, a9 as _createResolver, aa as _descriptors, ab as mergeIf, ac as uid, ad as debounce, ae as retinaScale, af as clearCanvas, ag as setsEqual, ah as getDatasetClipArea, ai as _elementsEqual, aj as _isClickEvent, ak as _isBetween, al as _normalizeAngle, am as _readValueToProps, an as _updateBezierControlPoints, ao as _computeSegments, ap as _boundSegments, aq as _steppedInterpolation, ar as _bezierInterpolation, as as _pointInLine, at as _steppedLineTo, au as _bezierCurveTo, av as drawPoint, aw as addRoundedRectPath, ax as toTRBL, ay as toTRBLCorners, az as _boundSegment, aA as getRtlAdapter, aB as overrideTextDirection, aC as _textX, aD as restoreTextDirection, aE as drawPointLegend, aF as distanceBetweenPoints, aG as noop, aH as _setMinAndMaxByKey, aI as niceNum, aJ as almostWhole, aK as almostEquals, aL as _decimalPlaces, aM as Ticks, aN as log10, aO as _longestText, aP as _filterBetween, aQ as _lookup } from './chunks/helpers.dataset.js';
+>  8 | import '@kurkle/color';
+     | ^^^^^^^^^^^^^^^^^^^^^^^
+   9 |
+  10 | class Animator {
+  11 |     constructor(){
+
+Import trace:
+  Browser:
+    ./node_modules/chart.js/dist/chart.js
+    ./node_modules/chart.js/auto/auto.js
+    ./pages/dashboard.js
+
+https://nextjs.org/docs/messages/module-not-found
+[00:17:15.816] Browser ERROR   ./node_modules/chart.js/dist/chunks/helpers.dataset.js:7:1
+Module not found: Can't resolve '@kurkle/color'
+   5 |  * Released under the MIT License
+   6 |  */
+>  7 | import { Color } from '@kurkle/color';
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 |
+   9 | /**
+  10 |  * @namespace Chart.helpers
+
+Import trace:
+  Browser:
+    ./node_modules/chart.js/dist/chunks/helpers.dataset.js
+    ./node_modules/chart.js/dist/chart.js
+    ./node_modules/chart.js/auto/auto.js
+    ./pages/dashboard.js
+
+https://nextjs.org/docs/messages/module-not-found
+[00:17:15.816] Browser ERROR   ./pages/_app.js:1:1
+Module not found: Can't resolve '@/styles/globals.css'
+> 1 | import "@/styles/globals.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 |
+  3 | export default function App({ Component, pageProps }) {
+  4 |   return <Component {...pageProps} />;
+
+https://nextjs.org/docs/messages/module-not-found
+[00:17:15.816] Browser ERROR   ./node_modules/chart.js/dist/chart.js:8:1
+Module not found: Can't resolve '@kurkle/color'
+   6 |  */
+   7 | import { r as requestAnimFrame, a as resolve, e as effects, c as color, i as isObject, d as defaults, b as isArray, v as valueOrDefault, u as unlistenArrayEvents, l as listenArrayEvents, f as resolveObjectKey, g as isNumberFinite, h as defined, s as sign, j as createContext, k as isNullOrUndef, _ as _arrayUnique, t as toRadians, m as toPercentage, n as toDimension, T as TAU, o as formatNumber, p as _angleBetween, H as HALF_PI, P as PI, q as _getStartAndCountOfVisiblePoints, w as _scaleRangesChanged, x as isNumber, y as _parseObjectDataRadialScale, z as getRelativePosition, A as _rlookupByKey, B as _lookupByKey, C as _isPointInArea, D as getAngleFromPoint, E as toPadding, F as each, G as getMaximumSize, I as _getParentNode, J as readUsedSize, K as supportsEventListenerOptions, L as throttled, M as _isDomSupported, N as _factorize, O as finiteOrDefault, Q as callback, R as _addGrace, S as _limitValue, U as toDegrees, V as _measureText, W as _int16Range, X as _alignPixel, Y as clipArea, Z as renderText, $ as unclipArea, a0 as toFont, a1 as _toLeftRightCenter, a2 as _alignStartEnd, a3 as overrides, a4 as merge, a5 as _capitalize, a6 as descriptors, a7 as isFunction, a8 as _attachContext, a9 as _createResolver, aa as _descriptors, ab as mergeIf, ac as uid, ad as debounce, ae as retinaScale, af as clearCanvas, ag as setsEqual, ah as getDatasetClipArea, ai as _elementsEqual, aj as _isClickEvent, ak as _isBetween, al as _normalizeAngle, am as _readValueToProps, an as _updateBezierControlPoints, ao as _computeSegments, ap as _boundSegments, aq as _steppedInterpolation, ar as _bezierInterpolation, as as _pointInLine, at as _steppedLineTo, au as _bezierCurveTo, av as drawPoint, aw as addRoundedRectPath, ax as toTRBL, ay as toTRBLCorners, az as _boundSegment, aA as getRtlAdapter, aB as overrideTextDirection, aC as _textX, aD as restoreTextDirection, aE as drawPointLegend, aF as distanceBetweenPoints, aG as noop, aH as _setMinAndMaxByKey, aI as niceNum, aJ as almostWhole, aK as almostEquals, aL as _decimalPlaces, aM as Ticks, aN as log10, aO as _longestText, aP as _filterBetween, aQ as _lookup } from './chunks/helpers.dataset.js';
+>  8 | import '@kurkle/color';
+     | ^^^^^^^^^^^^^^^^^^^^^^^
+   9 |
+  10 | class Animator {
+  11 |     constructor(){
+
+Import trace:
+  Browser:
+    ./node_modules/chart.js/dist/chart.js
+    ./node_modules/chart.js/auto/auto.js
+    ./pages/dashboard.js
+
+https://nextjs.org/docs/messages/module-not-found
+[00:17:15.816] Browser ERROR   ./node_modules/chart.js/dist/chunks/helpers.dataset.js:7:1
+Module not found: Can't resolve '@kurkle/color'
+   5 |  * Released under the MIT License
+   6 |  */
+>  7 | import { Color } from '@kurkle/color';
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 |
+   9 | /**
+  10 |  * @namespace Chart.helpers
+
+Import trace:
+  Browser:
+    ./node_modules/chart.js/dist/chunks/helpers.dataset.js
+    ./node_modules/chart.js/dist/chart.js
+    ./node_modules/chart.js/auto/auto.js
+    ./pages/dashboard.js
+
+https://nextjs.org/docs/messages/module-not-found
